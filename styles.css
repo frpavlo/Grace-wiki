@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #E97B7B;
+    padding: 0;
+}
+
+nav {
+    background-color: #FF9075;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 96px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+.entities {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+
+.entity, .badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entity-title {
+    font-size: 64px;
+}
+.entity-info {
+    width: 506px;
+}
+.badges {
+    display: flex; 
+    justify-content: space-around;
+    gap: 95px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.badge {
+    width: 150px;
+    height: 150px;
+}
+.badge-link {
+    color: black;
+}
+.badges-extra {
+    margin-bottom: 80px;
+}
+.badges-extra-title {
+    font-size: 64px;
+    text-align: center;
+}
+.badges-extra-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer {
+   background-color: grey;
+   display: flex;
+   justify-content: center;
+}
+
+.footer-link {
+    background-color: #FF836A;
+    border-radius: 100px;
+    padding: 4px 71px;
+    text-align: center;
+}
+
