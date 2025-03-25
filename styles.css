@@ -37,6 +37,13 @@ p {
     gap: 75px;
     flex-wrap: wrap;
 }
+.entities-extra {
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
 
 .entity, .badge {
     display: flex;
@@ -75,6 +82,20 @@ p {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+.modifiers-title {
+    font-size: 96px;
+    text-align: center;
+}
+modifiers-container {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 22px;
 }
 
 footer {
