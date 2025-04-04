@@ -13,6 +13,14 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+main {
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .nav-link {
     display: flex;
@@ -34,14 +42,12 @@ p {
 .entities {
     display: flex;
     justify-content: center;
-    gap: 75px;
     flex-wrap: wrap;
 }
 .entities-extra {
     margin-bottom: 160px;
     display: flex;
     justify-content: center;
-    gap: 75px;
     flex-wrap: wrap;
 }
 
@@ -56,9 +62,9 @@ p {
 .entity-info {
     width: 506px;
 }
-.badges {
+.badges, .badges-extra-container {
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     gap: 95px;
     flex-wrap: wrap;
     margin-bottom: 100px;
@@ -69,6 +75,7 @@ p {
 }
 .badge-link {
     color: black;
+    text-decoration: underline;
 }
 .badges-extra {
     margin-bottom: 80px;
@@ -76,12 +83,6 @@ p {
 .badges-extra-title {
     font-size: 64px;
     text-align: center;
-}
-.badges-extra-container {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
 }
 .modifiers-title {
     font-size: 96px;
@@ -107,7 +108,6 @@ footer {
 .footer-link {
     background-color: #FF836A;
     border-radius: 100px;
-    padding: 4px 71px;
+    padding: 20px 71px;
     text-align: center;
 }
-
