@@ -43,13 +43,13 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 75px
+    gap: 75px;
     align-items: center;
 }
 .entities-extra {
     margin-bottom: 160px;
     display: flex;
-    gap: 75px
+    gap: 75px;
     justify-content: center;
     flex-wrap: wrap;
 }
