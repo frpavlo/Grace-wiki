@@ -13,9 +13,6 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-main {
-    padding-top: 100px;
-}
 
 a {
     text-decoration: none;
@@ -35,6 +32,13 @@ h1 {
     gap: 20px;
     align-items: center;
 }
+h1 img {
+    width: 194px;
+    height: 194px;
+}
+main {
+    padding-top: 57px;
+}
 
 p {
     font-size: 20px;
@@ -42,15 +46,14 @@ p {
 .entities {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 75px;
-    align-items: center;
+    flex-wrap: wrap;
 }
 .entities-extra {
     margin-bottom: 160px;
     display: flex;
-    gap: 75px;
     justify-content: center;
+    gap: 75px;
     flex-wrap: wrap;
 }
 
@@ -65,9 +68,9 @@ p {
 .entity-info {
     width: 506px;
 }
-.badges, .badges-extra-container {
+.badges {
     display: flex; 
-    justify-content: center;
+    justify-content: space-around;
     gap: 95px;
     flex-wrap: wrap;
     margin-bottom: 100px;
@@ -86,6 +89,12 @@ p {
 .badges-extra-title {
     font-size: 64px;
     text-align: center;
+}
+.badges-extra-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 .modifiers-title {
     font-size: 96px;
