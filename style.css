@@ -68,9 +68,9 @@ p {
 .entity-info {
     width: 506px;
 }
-.badges {
+.badges, .badges-extra-container {
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     gap: 95px;
     flex-wrap: wrap;
     margin-bottom: 100px;
