@@ -28,6 +28,10 @@ a {
     gap: 25px;
     font-size: 32px;
 }
+.nav-link:hover {
+    color: whitesmoke;
+    font-size: 36px;
+}
 
 h1 {
     font-size: 96px;
@@ -74,6 +78,9 @@ p {
 .badge {
     width: 150px;
     height: 150px;
+}
+.badge:hover {
+    font-size: 24px;
 }
 .badge-link {
     color: black;
