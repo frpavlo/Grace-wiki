@@ -21,6 +21,8 @@ nav {
 }
 .nav-link:nth-child(3)::after {
     content: url(https://learn.logikaschool.com/uploads/student/4934932/67e114c93cb62.png);
+    width: 81px;
+    height: 81px;
 }
 main {
     padding-top: 100px;
