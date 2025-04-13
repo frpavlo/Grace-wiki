@@ -13,11 +13,14 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-.nav-link:nth-child(1)::before {
+.nav-link:nth-child(1)::after {
     content: url(https://learn.logikaschool.com/uploads/student/4934932/67e020792b019.png);
 }
-.nav-link:nth-child(2)::before {
-    content: url(https://learn.logikaschool.com/uploads/student/4934932/67e020792b019.png);
+.nav-link:nth-child(2)::after {
+    content: url(https://learn.logikaschool.com/uploads/student/4934932/67e02130928c9.png);
+}
+.nav-link:nth-child(3)::after {
+    content: url(https://learn.logikaschool.com/uploads/student/4934932/67e02130928c9.png);
 }
 main {
     padding-top: 100px;
