@@ -46,11 +46,12 @@ a {
 
 h1 {
     font-size: 96px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
 }
-
+h1 img {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
 p {
     font-size: 20px;
 }
