@@ -46,11 +46,15 @@ a {
 
 h1 {
     font-size: 96px;
+    z-index: 0;
 }
 h1 img {
+    width: 150px;
+    height: 150px;
     position: absolute;
     left: 10px;
     top: 0px;
+    z-index: 1;
 }
 p {
     font-size: 20px;
