@@ -20,6 +20,7 @@ nav {
     content: url(https://learn.logikaschool.com/uploads/student/4934932/67e02130928c9.png);
 }
 .nav-link:nth-child(3)::after {
+    content: '';
     background-image: url(https://learn.logikaschool.com/uploads/student/4934932/67e114c93cb62.png);
     background-size: contain;
     width: 81px;
@@ -46,6 +47,7 @@ a {
 }
 
 h1 {
+    position: relative;
     font-size: 96px;
     z-index: 1;
 }
