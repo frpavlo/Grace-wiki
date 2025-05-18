@@ -146,6 +146,7 @@ footer {
     transition: 0.5s;
 }
 .footer-link:hover {
+    width: 100%;
     color: white;
     padding: 10px 142px;
 }
