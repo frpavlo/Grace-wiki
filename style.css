@@ -129,15 +129,10 @@ li {
 }
 
 footer {
-    padding: 5px 40vw;
     position: fixed;
     bottom: 0;
    background-color: grey;
-   display: flex;
-   justify-content: center;
-}
-footer:hover {
-    padding: 0
+   display: block;
 }
 .footer-link {
     background-color: #FF836A;
@@ -145,7 +140,7 @@ footer:hover {
     font-size: 24px;
     padding: 20px 71px;
     text-align: center;
-    transition: 0.5s;
+    transition: 1s;
 }
 .footer-link:hover {
     width: 100vw;
