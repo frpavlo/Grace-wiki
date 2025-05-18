@@ -137,7 +137,6 @@ li {
     padding: 20px 71px;
     text-align: center;
     transition: 1s;
-    transition: width 1s;
 }
 .footer-link:hover {
     width: 100vw;
