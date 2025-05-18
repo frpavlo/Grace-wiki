@@ -136,7 +136,9 @@ footer {
    display: flex;
    justify-content: center;
 }
-
+footer:hover {
+    padding: 0
+}
 .footer-link {
     background-color: #FF836A;
     border-radius: 100px;
@@ -151,3 +153,4 @@ footer {
     padding: 10px 142px;
     margin: 0 auto
 }
+
