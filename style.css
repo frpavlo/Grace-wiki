@@ -130,13 +130,14 @@ li {
 .footer-link {
     position: fixed;
     bottom: 0;
-    left: 30%;
+    left: 35%;
     background-color: #FF836A;
     border-radius: 100px;
     font-size: 24px;
     padding: 20px 71px;
     text-align: center;
     transition: 1s;
+    transition: width 1s;
 }
 .footer-link:hover {
     width: 100vw;
