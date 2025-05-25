@@ -139,9 +139,8 @@ li {
     transition: 1s;
 }
 .footer-link:hover {
-    transform: scaleX(10) scaleY(2);
+    transform: scaleX(10) scaleY(2) translateX(-45vw);
     color: white;
     padding: 10px 142px;
-    right: 1px;
 }
 
