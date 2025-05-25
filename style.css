@@ -136,9 +136,10 @@ li {
     font-size: 24px;
     padding: 20px 71px;
     text-align: center;
+    transition: 1s;
 }
 .footer-link:hover {
-    transform: scaleX(10) scaleY(2) translateX(-45vw);
+    transform: scaleX(10) scaleY(2);
     color: white;
     padding: 10px 142px;
 }
