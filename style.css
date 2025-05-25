@@ -139,9 +139,8 @@ li {
     transition: 1s;
 }
 .footer-link:hover {
-    width: 100vw;
+    transform: scale(10);
     color: white;
     padding: 10px 142px;
-    left: -10%;
 }
 
