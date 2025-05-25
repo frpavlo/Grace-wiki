@@ -142,5 +142,6 @@ li {
     transform: scaleX(10) scaleY(2);
     color: white;
     padding: 10px 142px;
+    right: 1px;
 }
 
